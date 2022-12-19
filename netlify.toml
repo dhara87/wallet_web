@@ -1,10 +1,10 @@
 [build]
   publish = "public"
-  command = "hugo --minify --gc"
+  command = "hugo --gc --themesDir themes"
   
 [build.environment]
-  HUGO_VERSION = "0.83.1"
-  HUGO_BASEURL = "/"
+  HUGO_VERSION = "0.92.1"
+  HUGO_THEME = "wallet"
 
 [[headers]]
   for = "/*" # This defines which paths this specific [[headers]] block will cover.
